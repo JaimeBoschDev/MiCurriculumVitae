@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Mi Curriculum Vitae</title>
+    <meta
+      content="Jaime Joaquin Gonzalez Bosch Amante de la programación con más de 10 años de experiencia trabajando con proyectos de escritorio, web o móviles. Especializado con C#, XAMARIN, SQL, CSS/HTML/JAVASCRIPT, React, SEO, ANALITYCS, API REST, MongoDB."
+      name="description"
+    />
+    <meta content="Jaime Bosch Bombosch" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ======= Mobile nav toggle button ======= -->
+    <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+    <!-- ======= Header ======= -->
+    <header id="header">
+      <div class="d-flex flex-column">
+        <div class="profile">
+          <img
+            src="assets/img/profile-img.jpg"
+            alt=""
+            class="img-fluid rounded-circle"
+          />
+          <h1 class="text-light">
+            <a href="index.html" id="lbl_Header_Name"></a>
+          </h1>
+          <div class="social-links mt-3 text-center" id="div_SocialLink"></div>
+        </div>
+
+        <nav id="navbar" class="nav-menu navbar">
+          <ul>
+            <li>
+              <a href="#hero" class="nav-link scrollto active"
+                ><i class="bx bx-home"></i> <span>Inicio</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link scrollto"
+                ><i class="bx bx-user"></i> <span>Acerca de mi</span></a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Skills</span></a
+              >
+            </li>
+            <li>
+              <a href="#resume" class="nav-link scrollto"
+                ><i class="bx bx-file-blank"></i> <span>Experiencia</span></a
+              >
+            </li>
+            <li>
+              <a href="#services" class="nav-link scrollto"
+                ><i class="bx bx-server"></i> <span>¿Por que debes contactárme?</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link scrollto"
+                ><i class="bx bx-envelope"></i> <span>Contacto</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- .nav-menu -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section
+      id="hero"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
+      <div class="hero-container" data-aos="fade-in">
+        <h1 id="lbl_Header_Name_2"></h1>
+        <p>
+          Yo soy
+          <span
+            class="typed"
+            data-typed-items="Programador, Diseñador, Emprendedor, Analista de datos,  Marketing, Apasionado"
+          ></span>
+        </p>
+      </div>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Seccion Acerca de mi ======= -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-title">
+            <h2>Acerca de</h2>
+            <p id="lbl_AcercaDeMi"></p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <img src="assets/img/profile-img.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+              <h3 id="lbl_Cargo"></h3>
+              <p class="fst-italic" id="lbl_DescripcionCorta"></p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Género:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Genero"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Website:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_WebSite"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Nacionalidad:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Nacionalidad"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Fecha de Nacimiento:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Nacimiento"></span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li>
+                      <i class="bi bi-chevron-right"></i> <strong>Edad:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Edad"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Estado Civil:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Civil"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Email:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Email"></span>
+                    </li>
+                    <li>
+                      <i class="bi bi-chevron-right"></i>
+                      <strong>Télefono:</strong>
+                      <span id="lbl_Sec_AcercaDeMi_Telefono"></span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p id="lbl_DescripcionProfesional"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fin Seccion Acerca de mi -->
+
+      <!-- ======= Skills Section ======= -->
+      <section id="skills" class="skills section-bg">
+        <div class="container">
+          <div class="section-title">
+            <h2>Skills</h2>
+          </div>
+          <div class="row skills-content" id="id_Div_Skills"></div>
+        </div>
+      </section>
+      <!-- End Skills Section -->
+
+      <!-- ======= Resume Section ======= -->
+      <section id="resume" class="resume">
+        <div class="container">
+          <div class="section-title">
+            <h2>Resumen</h2>
+            <p id="id_Lbl_ResumenShort"></p>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">Yo soy</h3>
+              <div class="resume-item pb-0">
+                <h4 id="id_Lbl_NameResumen">Jaime Bosch</h4>
+                <p>
+                  <em id="lbl_ResumenMio"></em>
+                </p>
+                <ul id="id_ListaDePuntosImportantes"></ul>
+              </div>
+
+              <h3 class="resume-title">Mi Educación</h3>
+              <div id="id_Div_Educacion"></div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="resume-title">Experiencia Profesional</h3>
+              <div id="id_Div_Experiencias"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Resume Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services">
+        <div class="container">
+          <div class="section-title">
+            <h2>¿Por que debes contactarme?</h2>
+            <p id="id_lbl_ContactoDescripcion">
+            </p>
+          </div>
+
+          <div class="row" id="id_Div_Motivos">
+          </div>
+        </div>
+      </section>
+      <!-- End Services Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contácto</h2>
+          
+          </div>
+
+          <div class="row text-center" data-aos="fade-in">
+           
+          <h2  data-aos="fade-up">Por favor contáctame en el siguiente correo:</br></br> 
+            <b>
+              <span style="border-width: 0px;border-bottom-width: 1px;border-style: solid;padding-bottom: 17px;" id="lbl_CorreoContacto">@gmail.com</span>
+            </b>
+          </h2>
+
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright </Br>
+          <strong><span>Mi Curriculum Vitae </span></strong>
+        </div>
+        <div class="credits">
+          Adaptado por
+          <a target="_blank" href="https://tumentorweb.com.mx">Tu Mentor Web</a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <script src="assets/js/main.js"></script>
+    <script src="Configuración/InformacionPersonal.js"></script>
+    <script src="assets/js/relacionInformacion.js"></script>
+  </body>
+</html>
